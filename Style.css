@@ -61,7 +61,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-.banner-content img{
+.banner-content profile-pic{
    width: 400px;
 }
 button{
@@ -176,4 +176,42 @@ hr{
 }
 .download-button{
    text-align: center;
+}
+
+.contact-info  {
+        width: 40%;
+        margin-right: 30px;
+        padding: 20px;
+        
+}
+.contact-info p{
+    margin: 10px 0;
+}
+.form input{
+    margin: 10px 0;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.information-area{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px ;
+    background-color: antiquewhite;
+}
+#textarea{
+    padding: 10px;
+    border: 1px solid rgb(41, 41, 40);
+    background: none;
+    outline: none;
+}
+.footer-section{
+
+    margin-bottom: 100px;
+   
 }
