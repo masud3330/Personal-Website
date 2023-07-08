@@ -19,6 +19,11 @@
 span{
     color: orangered;
 }
+a{
+    text-decoration: none;
+    color: rgb(49, 48, 48);
+    font-weight: 600;
+}
 
 .navBar ul{
     list-style: none;
@@ -65,13 +70,15 @@ header{
    width: 400px;
 }
 button{
-    background-color: orange;
+    /* background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%); */
+    background-image: linear-gradient(to right, tomato, rgb(238, 156, 156));
     padding: 5px;
     font-size: 17px;
     border-radius: 5px;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     margin: 10px 0;
+    font-weight: 600;
 }
 
 .about{
@@ -191,6 +198,8 @@ hr{
     margin: 10px 0;
     font-size: 15px;
     padding: 5px;
+    overflow: hidden;
+    
     border: none;
     background: none;
     outline: none;
@@ -202,7 +211,7 @@ hr{
     display: flex;
     flex-wrap: wrap;
     padding: 30px ;
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.445);
 }
 #textarea{
     padding: 10px;
