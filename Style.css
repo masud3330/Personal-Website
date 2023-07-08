@@ -135,11 +135,15 @@ button{
 
 .resume-area h1{
      text-align: center;
+
 }
+
 .resume-info{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 20px 50px;
+   
 
 
 
@@ -147,7 +151,7 @@ button{
 .Education-Experience{
     
     width: 40%;
-    /* background-color: red; */
+    background-color: #eb939313;
     margin-right: 30px;
     padding: 20px;
 }
@@ -156,6 +160,9 @@ button{
     text-align: left;
     margin-bottom: 15px;
     color: #413f3f;
+}
+.Education-Experience p{
+    text-align: justify;
 }
 .Education-Experience h3, h4, p{
     margin-bottom: 10px;
@@ -166,4 +173,7 @@ hr{
 }
 .download-btn{
   margin: 0 auto;
+}
+.download-button{
+   text-align: center;
 }
